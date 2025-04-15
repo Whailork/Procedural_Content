@@ -7,7 +7,7 @@
 
 [node name="TerrainGenerator" type="Node3D" node_paths=PackedStringArray("_mesh")]
 script = ExtResource("1_5u1dk")
-_mesh = NodePath("MeshInstance3D")
+_mesh = NodePath("")
 HeightMapGeneratorPath = NodePath("ComputeTextureGenerator")
 HeightScale = 2.0
 Resolution = 1024
